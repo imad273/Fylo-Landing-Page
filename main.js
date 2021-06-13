@@ -1,6 +1,8 @@
 // Variable
 var btnTop = document.getElementById("btn-top");
 var nav = document.getElementById("nav");
+var menuIcon = document.getElementById("humb");
+var closeBtn = document.getElementById("close");
 
 
 
@@ -18,9 +20,9 @@ btnTop.addEventListener("click", (event) =>{
 })
 
 
-document.getElementById("humb").addEventListener("click", (event) =>{
+menuIcon.addEventListener("click", (event) =>{
     nav.style.width = "100%"
 })
-document.getElementById("close").addEventListener("click", (event) =>{
+closeBtn.addEventListener("click", (event) =>{
     nav.style.width = "0%"
 })
