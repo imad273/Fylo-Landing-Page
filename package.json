@@ -4,7 +4,7 @@
   "description": "![Design preview for the Fylo dark theme landing page challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "build": "tailwind build src/style.css -o public/style.css"
+    "build": "tailwind build -i src/style.css -o public/style.css"
   },
   "keywords": [],
   "author": "",
