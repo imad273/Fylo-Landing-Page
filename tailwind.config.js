@@ -1,9 +1,5 @@
 module.exports = {
-  mode: 'jit',
-  purge: [
-    './public/*.html'
-  ],
-  darkMode: false, // or 'media' or 'class'
+  content: ["./public/*.html"],
   theme: {
     extend: {
       colors: {
@@ -30,9 +26,6 @@ module.exports = {
       OpenSans: ['Open Sans, sans-serif'],
     },
     
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 }
